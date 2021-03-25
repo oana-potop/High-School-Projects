@@ -1,0 +1,117 @@
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+h1 {
+  font-family:'IM Fell English SC','Palatino Linotype';
+  color:white;
+  text-align: center;
+  font-size:50px;
+  margin:30px;
+}
+h2{
+  color: white;
+  margin-left:250px;
+  margin-top:30px;
+  margin-bottom:10px;
+  font-size:30px;
+  font-family:'Palatino Linotype';
+}
+h3{
+  color:white;
+  margin-left:250px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size:25px;
+  font-family:'Palatino Linotype';
+}
+
+
+html {
+	min-height: 100%;
+}
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.section {
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
+canvas{
+  display:flex;
+  flex: 1;
+  margin: 0;
+}
+#section1 {
+    background-image: url('imagini/621150.jpg');
+}
+#section2 {
+    background-image: url('imagini/darkest-dungeon-wallpaper-full-hd-1080p-191498.jpg');
+}
+#section3 {
+    background-image: url('imagini/5027531.jpg');
+}
+#section4 {
+    background-image: url('imagini/maxresdefault1.jpg');
+
+}
+#section5 {
+    background-image: url('imagini/Inked334133_LI1.jpg');
+}
+#section6 {
+    background-image: url('imagini/darkest-dungeon---the-color-of-madness-1529433221578_1280.jpg');
+}
+#section7 {
+    background-image: url('imagini/800px-Loading_screen_Darkest_Dungeon.png');
+
+}
+
+
+p {
+  color: white;
+  text-align: justify;
+  font-size:27px;
+  padding-left:170px;
+  padding-right: 170px;
+  font-family: 'Palatino Linotype';
+}
+a {
+  color:white;
+}
+
+button {
+  background-color:rgb(255, 255, 255, 0.5);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 10%;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top:30px;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color:black;
+}
+
+@media screen and (max-width: 1333px){
+  button {
+    width:16%;
+  }
+}

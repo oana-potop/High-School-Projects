@@ -1,0 +1,126 @@
+body {
+	background-image:url("imagini/crop21.jpg");
+	
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position:bottom;
+  	background-attachment: fixed;
+  	height: 100%;
+  	color: white;
+  	margin-bottom: 50px;
+}
+
+h1 {
+	font-size: 55px;
+  font-family: 'IM Fell English SC';
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:50px;
+}
+h2 {
+	text-align:left;
+	margin-left:250px;
+	margin-right:120px;
+	margin-top:50px;
+	font-size:30px;
+	font-family:'Palatino Linotype'
+
+}
+
+p{
+	text-align:justify;
+	margin-left:120px;
+	margin-right:120px;
+	font-size:25px;
+	font-family:'Palatino Linotype';
+}
+
+ul {
+	text-align:justify;
+	margin-left:150px;
+	margin-right:150px;
+	font-size:25px;
+	font-family:'Palatino Linotype';
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  font-family:'Palatino Linotype';
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 28px;}
+}
+
+
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.responsive {
+  padding: 6 6px;
+  float: left;
+  width: 20.99999%;
+  font-size:20px;
+  font-family:'Palatino Linotype';
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
